@@ -59,7 +59,7 @@ website.renderer_factories['jinja2'].Renderer.global_context = {
 env = website.env = gratipay.wireup.env()
 gratipay.wireup.canonical(env)
 website.db = gratipay.wireup.db(env)
-website.mail = gratipay.wireup.mail(env)
+website.mailer = gratipay.wireup.mail(env)
 gratipay.wireup.billing(env)
 gratipay.wireup.username_restrictions(website)
 gratipay.wireup.nanswers(env)
