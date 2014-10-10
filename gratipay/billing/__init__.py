@@ -115,6 +115,8 @@ def associate(db, thing, username, balanced_customer_href, balanced_thing_uri):
     try:
         if thing == "credit card":
             obj = balanced.Card.fetch(balanced_thing_uri)
+        elif thing == "coinbase account":
+            obj = balanced.ExternalAccount.fetch(balanced_thing_uri)
         else:
             assert thing == "bank account", thing # sanity check
             obj = balanced.BankAccount.fetch(balanced_thing_uri)
@@ -124,7 +126,7 @@ def associate(db, thing, username, balanced_customer_href, balanced_thing_uri):
     else:
         error = ''
     typecheck(error, unicode)
-
+    #TODO - modify store_result to handle Coinbase
     store_result(db, thing, username, error)
     return error
 
@@ -138,11 +140,16 @@ def invalidate_on_balanced(thing, balanced_customer_href):
     See: https://github.com/balanced/balanced-api/issues/22
 
     """
-    assert thing in ("credit card", "bank account")
+    assert thing in ("credit card", "bank account","coinbase account")
     typecheck(balanced_customer_href, (str, unicode))
 
     customer = balanced.Customer.fetch(balanced_customer_href)
-    things = customer.cards if thing == "credit card" else customer.bank_accounts
+    if thing == "credit card":
+        things = customer.cards
+    elif thing == "coinbase account":
+        things = customer.external_accounts
+    else:
+        things = customer.bank_accounts
 
     for _thing in things:
         _thing.unstore()
