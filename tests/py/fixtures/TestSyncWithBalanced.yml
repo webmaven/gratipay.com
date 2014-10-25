@@ -3,24 +3,24 @@ interactions:
     body: null
     headers: {}
     method: GET
-    uri: https://api.balancedpayments.com:443/customers/CU3KXdyvNSDeyLP3pAWr9hqd/cards?limit=10&offset=0
+    uri: https://api.balancedpayments.com:443/customers/CU5tIlvVCbZTDcKmmZ65uN3y/cards?limit=10&offset=0
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6VVW2+bMBR+76+weNhTmwBOyEWqprSbVq1NWq1dO3WakIPtxiqxmW2yoCr/fbaB
-        AL1o08YDEud+vvOdw9MBAF6CJFbeFHw3HwA8ubcRp4w/WnEtsJa50mJNpJF6p1/h+TdcbBbXH0hx
-        cQWz2Z2crH5ir/LfHdaBKOMPRGaScW0dx8mI+oMQwmiI6HicQAKjhPrhaBCRBEUDihMKI4yTkAQU
-        Tow5SSYUUor9IQqjkbcPnGw2sSQqT21cnqfpXsPz9bIsc9t6AvM03mij4kwojdJ4jXSysrVx0ejJ
-        NmMSaSZ4vBZcW33g7zOsiUZdcCR5MLYOGsFpruxHbW6xY7qItfjlLNoKhLFpQsWhVZyILQhfQsiw
-        i3sK52cn6i7anKELqPKLW3xzu7yctBBBmjwIWVhroVcGgn3BusiIFSeSYKa7INb9dzBcIv4Yc7R2
-        Xp+v5pdfPs0W4PRsdv0RnMwW54dg0Zv1ungqLQnRDZ4FUY3BUiLu+rhlCjXiPMOmahwjx47QDwZH
-        /ujID26C4XQAp4NhbzwMQhjct1KVkBn7NjkNwEbS7qFkMbHIviIObD4TGcwR4+Dald4ejKGGds2/
-        Os+KOonAzmbih4Hf9k5EzrUs4srA5n+xGQniMSZLM44p0DInDX9L2DvzaPGxIMjuYOiHDSHNMjxr
-        02Mq3hDJKCMW9k4CS/796nhl76BiIjBjAmV7wFYPsABcaOBY0hq4rb5i0xRQlKqm/pUk1KLSd7el
-        /xfEleQPJBhEcBLA+3I3dgbKHxYtr7OHXoqUY1G/vlQm9xt3qiztfcrWTB8H/jtBqSL6uJ6hx8m2
-        e1a8pqnqDP57cJfVFFofFK/MbiTVQL1Mkg0TuT3ADQs8Lcy5sn4lUzzK5P83bGB0x/rZxS//Cz3M
-        VJZrs8fNOJ/cVHsM7/p7bVVQqWn/J1qjqPxq7a5alyqRdY1XInX/opo5rVQtfSeZW6A3fCqd7fBg
-        9xv4QHhu7QYAAA==
+        H4sIAAAAAAAAA6VVW2vbMBR+368QfthTm/gSOxcoI81Kt4ZmY73AMoZRLKkRtaUgyV5MyX+fJNux
+        3QsbmzEGn4vOOd/5ztHTOwCcBAoknRn4oX8AeLJfLU4pezTiRmAsc6l4hoWWOou7UH1Oi/vFZn37
+        MVlm2ToK81VQOrX/4aQ5iFD2gMVOUKaM4yQZE3fkB0EUQjKZJAEOooS4/ngU4QRGI4ISEkQIJT72
+        SDDV5jiZkoAQ5IbQj8bO8eCkKGKBZZ6ac1mepkcNy7NNlea+83j6ab1hIeMdlwqmcQZVsjW5Md7q
+        8X5HBVSUszjjTBm95x4jZFjBPjgCP2hbCw1nJJfmpzE32FFVxor/shZdBURIFyFj3yjO+R74LyGk
+        yJ67CPPl+ObyfnK1CCG7uP5+ty3K8bKDCFT4gYvSWHO11RAcE1blDhtxIjCiqg9iU38Pww1kjzGD
+        mfW6+nr95dvlfAUWn+Y3F+B8vlqegNVgPujjKZXAWLV4lli2BhsBma3jnkrYivMd0lmjGFp2+K43
+        OvXcUz+8daOZH+p3EEXBNBqtO6EqyLR9l5waYC3p1lCxGBtkXxF7Jp7nB+AaUgZubOrdxmhqKFv8
+        q/2sqZNwZG2mru+5Xe+E50yJMq4NTPwXk5FAFiO80e2YASVy3PK3gr3Xjw4fSwzNDPqu3xJSD8Oz
+        Mh0q4wILSig2sPcCGPIfR8epagc1E4FuE6jKAyZ7gDhgXAHLkk7DTfY1m2aAwFS2+W8FJgaVod0t
+        w78grsB/IIE3Dbxosq5m46Ch/GnQcnpz6KRQWhYNm02lY7+xp6rUPqQ0o+rMc99zQiRWZ00PHYb3
+        /bXitEXVa/DfD7dRdaLNQnGq6FpSN9TZCVxQnpsF3LLAUVyvK+NXMcUhVPx/wRpGu6yfbfzqXhgg
+        Kne50nPctvPJdnVA0WF41NYJVZruPdFpRe3XaA/1uNSBjGu85am9ixrmdEJ19L1gdoDe8Kl1psJ3
+        h99ohlkk7QYAAA==
     headers:
       content-encoding: [gzip]
       content-length: ['751']
@@ -31,23 +31,24 @@ interactions:
       "janet"}'
     headers: {}
     method: POST
-    uri: https://api.balancedpayments.com:443/cards/CC3MHBsW6vHaL3suLVdTVbO9/card_holds
+    uri: https://api.balancedpayments.com:443/cards/CC5uK7SGV8JC5anEMYUhvy7K/card_holds
   response:
     body: {string: !!python/unicode "{\n  \"card_holds\": [\n    {\n      \"status\":
-        \"succeeded\",\n      \"description\": \"janet\",\n      \"links\": {\n        \"card\":
-        \"CC3MHBsW6vHaL3suLVdTVbO9\",\n        \"debit\": null\n      },\n      \"updated_at\":
-        \"2014-08-06T16:17:44.653585Z\",\n      \"created_at\": \"2014-08-06T16:17:44.440285Z\",\n
-        \     \"transaction_number\": \"HL523-391-5751\",\n      \"expires_at\": \"2014-08-13T16:17:44.565352Z\",\n
-        \     \"failure_reason\": null,\n      \"currency\": \"USD\",\n      \"amount\":
-        2091,\n      \"meta\": {\n        \"state\": \"new\",\n        \"participant_id\":
-        \"2\"\n      },\n      \"href\": \"/card_holds/HL1xrj6i5knWhOvt2SSAPCXS\",\n
-        \     \"failure_reason_code\": null,\n      \"voided_at\": null,\n      \"id\":
-        \"HL1xrj6i5knWhOvt2SSAPCXS\"\n    }\n  ],\n  \"links\": {\n    \"card_holds.events\":
-        \"/card_holds/{card_holds.id}/events\",\n    \"card_holds.card\": \"/cards/{card_holds.card}\",\n
-        \   \"card_holds.debits\": \"/card_holds/{card_holds.id}/debits\",\n    \"card_holds.debit\":
-        \"/debits/{card_holds.debit}\"\n  }\n}"}
+        \"succeeded\",\n      \"description\": \"janet\",\n      \"links\": {\n        \"order\":
+        null,\n        \"card\": \"CC5uK7SGV8JC5anEMYUhvy7K\",\n        \"debit\":
+        null\n      },\n      \"updated_at\": \"2014-10-25T06:26:45.999996Z\",\n      \"created_at\":
+        \"2014-10-25T06:26:45.817206Z\",\n      \"transaction_number\": \"HLRRX-AR2-XS4M\",\n
+        \     \"expires_at\": \"2014-11-01T06:26:45.942238Z\",\n      \"failure_reason\":
+        null,\n      \"currency\": \"USD\",\n      \"amount\": 2091,\n      \"meta\":
+        {\n        \"state\": \"new\",\n        \"participant_id\": \"2\"\n      },\n
+        \     \"href\": \"/card_holds/HL6XqQUHPMv2e6z0JPFNEAFi\",\n      \"failure_reason_code\":
+        null,\n      \"voided_at\": null,\n      \"id\": \"HL6XqQUHPMv2e6z0JPFNEAFi\"\n
+        \   }\n  ],\n  \"links\": {\n    \"card_holds.events\": \"/card_holds/{card_holds.id}/events\",\n
+        \   \"card_holds.order\": \"/orders/{card_holds.order}\",\n    \"card_holds.card\":
+        \"/cards/{card_holds.card}\",\n    \"card_holds.debits\": \"/card_holds/{card_holds.id}/debits\",\n
+        \   \"card_holds.debit\": \"/debits/{card_holds.debit}\"\n  }\n}"}
     headers:
-      content-length: ['944']
+      content-length: ['1021']
       content-type: [application/json]
     status: {code: 201, message: CREATED}
 - request:
@@ -55,25 +56,27 @@ interactions:
       "janet"}'
     headers: {}
     method: POST
-    uri: https://api.balancedpayments.com:443/card_holds/HL1xrj6i5knWhOvt2SSAPCXS/debits
+    uri: https://api.balancedpayments.com:443/card_holds/HL6XqQUHPMv2e6z0JPFNEAFi/debits
   response:
     body: {string: !!python/unicode "{\n  \"debits\": [\n    {\n      \"status\":
         \"succeeded\",\n      \"description\": \"janet\",\n      \"links\": {\n        \"customer\":
-        \"CU3KXdyvNSDeyLP3pAWr9hqd\",\n        \"source\": \"CC3MHBsW6vHaL3suLVdTVbO9\",\n
-        \       \"order\": null,\n        \"dispute\": null\n      },\n      \"updated_at\":
-        \"2014-08-06T16:17:45.687922Z\",\n      \"created_at\": \"2014-08-06T16:17:45.209792Z\",\n
-        \     \"transaction_number\": \"W946-597-2965\",\n      \"failure_reason\":
-        null,\n      \"currency\": \"USD\",\n      \"amount\": 1061,\n      \"failure_reason_code\":
-        null,\n      \"meta\": {\n        \"exchange_id\": \"1\",\n        \"participant_id\":
-        \"2\"\n      },\n      \"href\": \"/debits/WD1yiCx5knt1C67Mm97Rhyvj\",\n      \"appears_on_statement_as\":
-        \"BAL*example.com\",\n      \"id\": \"WD1yiCx5knt1C67Mm97Rhyvj\"\n    }\n
+        \"CU5tIlvVCbZTDcKmmZ65uN3y\",\n        \"source\": \"CC5uK7SGV8JC5anEMYUhvy7K\",\n
+        \       \"card_hold\": \"HL6XqQUHPMv2e6z0JPFNEAFi\",\n        \"order\": null,\n
+        \       \"dispute\": null\n      },\n      \"updated_at\": \"2014-10-25T06:26:47.122974Z\",\n
+        \     \"created_at\": \"2014-10-25T06:26:46.496439Z\",\n      \"transaction_number\":
+        \"WC37-874-4B9F\",\n      \"failure_reason\": null,\n      \"currency\": \"USD\",\n
+        \     \"amount\": 1061,\n      \"failure_reason_code\": null,\n      \"meta\":
+        {\n        \"exchange_id\": \"1\",\n        \"participant_id\": \"2\"\n      },\n
+        \     \"href\": \"/debits/WD6Yc6K7m1GWls8ORiJuDiBW\",\n      \"appears_on_statement_as\":
+        \"BAL*example.com\",\n      \"id\": \"WD6Yc6K7m1GWls8ORiJuDiBW\"\n    }\n
         \ ],\n  \"links\": {\n    \"debits.customer\": \"/customers/{debits.customer}\",\n
-        \   \"debits.dispute\": \"/disputes/{debits.dispute}\",\n    \"debits.source\":
-        \"/resources/{debits.source}\",\n    \"debits.order\": \"/orders/{debits.order}\",\n
-        \   \"debits.refunds\": \"/debits/{debits.id}/refunds\",\n    \"debits.events\":
-        \"/debits/{debits.id}/events\"\n  }\n}"}
+        \   \"debits.order\": \"/orders/{debits.order}\",\n    \"debits.dispute\":
+        \"/disputes/{debits.dispute}\",\n    \"debits.source\": \"/resources/{debits.source}\",\n
+        \   \"debits.events\": \"/debits/{debits.id}/events\",\n    \"debits.refunds\":
+        \"/debits/{debits.id}/refunds\",\n    \"debits.card_hold\": \"/holds/{debits.card_hold}\"\n
+        \ }\n}"}
     headers:
-      content-length: ['1067']
+      content-length: ['1169']
       content-type: [application/json]
     status: {code: 201, message: CREATED}
 - request:
@@ -84,20 +87,21 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA51U32vbMBB+718R/NCHsSS2Uzt1IIw2eSgs3cb6I2NjGEW6LGpt2dOPkBD8v0+S
-        ldgOlEFfjO5Od9993511uOj1vBwk8ia9gz5rK0NCassbElhRKT5lNKdyGkaX5toAdniD2B9IKZkG
-        l8V6LUBOfe9jnctgZ3KZyjLn2XBYv7eaRdbJYeSK1XDa4ztHyWFLCyW6mLKQKNOuwN1aU/4OSppR
-        ZQp4GWWvBsHpU8sywErIIgduyR0NMTychaujNM5PqCiVhFqS+twkueB5DmyBSdPBcSYnFEqqoYs6
-        rg6m4MS1Zk8NhDXPAfSMFCNvIhzDXQhRKI5rIhxqo4Gp7co7iVj3pTn8sptSa6nFFRJJOz9PKIwB
-        CBCnmA4SEJjTUtKCmRsviIFsot252N1tD2X2NPr8g+y3Xx7msF98G5U3S55s/jblDfqJw2w2ur+7
-        Fct4e4cWI6EWz+TxefU1OcHp20dRm/W2oM1ITcDSc6tjw6okSAJJkf2rQj+46vvXfT9+DOJJMJ5c
-        RYP4epyE4c+GGebwn5TQT3ROK0VyxATCRqqUqXxVT3+ZXMX9KBn3wySOmvprRDPFIdUwwkrbZqRF
-        5BwY3pt2nx7mTRrKC8UMi8CP3b+l+XWLpbggZik6FTsPjBWl9YwYmKAtc4m4pJiWiEn9yljRzB51
-        VT17V4bLebCns130ymQwi8f3eTL+vtlvX1rdlyUgLlItkFk6yPVPlSK7erc3iw+wQ3mZwQAXeZNT
-        w79Z23ZV6e/vi+ofRK3UuUoFAAA=
+        H4sIAAAAAAAAA51U30/bMBB+569AeeBhWtskpAlFQhO0/BgFxgalg2mKjH1dvSVO8I8Khvq/z3bc
+        JqnEHnixfD5/9919d/br1va2l4NE3v72q95rK0NCasvrEXikUnzKaE7lQdjfMde68IzniP2ClJKD
+        YKeYzQTIA9/7WGEZPBssU1nmTuYcZu+NZpk1OOy7YBWdPvHdQclhQQsl2pyykCjTR4G7NaP8HSXp
+        ipYmgJdR9scwOH0qWbpYCVnkwG1xK0P0Xjfcy5U07pxQUSoJlSTVvgY55yYGFsCkyWDVkzULJcue
+        87paHU3BiUvN7moKa24S6B4pRt5kWLnbFBhxks6LjNjEzKZR/cq3ySQKxXFVPYfKqFGVvfTWylfF
+        6Pg/7HhVDdAdERJJ23RPKIwBCBAns3YSEJjTUtKCmRu/EQNZe9vNtAPf7ORw0pefs8Xd8PHhdoTH
+        ef4Q99XV7ss6gGFf1zAc9tU4uTm92zsf9hE7vryfzBcvybh5uyXT2UX8/enr5Oz6chFC/Nc/vz65
+        Oj48oU3AqnX1I7JZ1oNjHFYPN6DWrUqCJJAU2bcb+kHUCfxO2L/14/0w3o+SbhCGgyR6qKXAHP4L
+        ibvRII52Bw2I5IgJhI22KVP5YzVj0+Fu0tlLok50NDip488QzRSHVNMI24tmRVp1zoHhF5Pu5GZU
+        w1BeKGaqCPzYvWBdXztYigtipqgVsfWNWVEan5WhCZoyl4hLimmJmNR/mRXNDF5b1Y3fqzcdxfc4
+        Hid5cDrNxN6Xb/RcjejRtJF9WQLiItUCmSmFXD/dFNlZPTq8+ADPKC8z6OIirzEV/ZuxbVZLvf7c
+        Wv4Dh+H7h7AFAAA=
     headers:
       content-encoding: [gzip]
-      content-length: ['590']
+      content-length: ['638']
       content-type: [application/json]
     status: {code: 200, message: OK}
 - request:
@@ -108,44 +112,45 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA51U32vbMBB+718R/NCHsSS2Uzt1IIw2eSgs3cb6I2NjGEW6LGpt2dOPkBD8v0+S
-        ldgOlEFfjO5Od9993511uOj1vBwk8ia9gz5rK0NCassbElhRKT5lNKdyGkaX5toAdniD2B9IKZkG
-        l8V6LUBOfe9jnctgZ3KZyjLn2XBYv7eaRdbJYeSK1XDa4ztHyWFLCyW6mLKQKNOuwN1aU/4OSppR
-        ZQp4GWWvBsHpU8sywErIIgduyR0NMTychaujNM5PqCiVhFqS+twkueB5DmyBSdPBcSYnFEqqoYs6
-        rg6m4MS1Zk8NhDXPAfSMFCNvIhzDXQhRKI5rIhxqo4Gp7co7iVj3pTn8sptSa6nFFRJJOz9PKIwB
-        CBCnmA4SEJjTUtKCmRsviIFsot252N1tD2X2NPr8g+y3Xx7msF98G5U3S55s/jblDfqJw2w2ur+7
-        Fct4e4cWI6EWz+TxefU1OcHp20dRm/W2oM1ITcDSc6tjw6okSAJJkf2rQj+46vvXfT9+DOJJMJ5c
-        RYP4epyE4c+GGebwn5TQT3ROK0VyxATCRqqUqXxVT3+ZXMX9KBn3wySOmvprRDPFIdUwwkrbZqRF
-        5BwY3pt2nx7mTRrKC8UMi8CP3b+l+XWLpbggZik6FTsPjBWl9YwYmKAtc4m4pJiWiEn9yljRzB51
-        VT17V4bLebCns130ymQwi8f3eTL+vtlvX1rdlyUgLlItkFk6yPVPlSK7erc3iw+wQ3mZwQAXeZNT
-        w79Z23ZV6e/vi+ofRK3UuUoFAAA=
+        H4sIAAAAAAAAA51U30/bMBB+569AeeBhWtskpAlFQhO0/BgFxgalg2mKjH1dvSVO8I8Khvq/z3bc
+        JqnEHnixfD5/9919d/br1va2l4NE3v72q95rK0NCasvrEXikUnzKaE7lQdjfMde68IzniP2ClJKD
+        YKeYzQTIA9/7WGEZPBssU1nmTuYcZu+NZpk1OOy7YBWdPvHdQclhQQsl2pyykCjTR4G7NaP8HSXp
+        ipYmgJdR9scwOH0qWbpYCVnkwG1xK0P0Xjfcy5U07pxQUSoJlSTVvgY55yYGFsCkyWDVkzULJcue
+        87paHU3BiUvN7moKa24S6B4pRt5kWLnbFBhxks6LjNjEzKZR/cq3ySQKxXFVPYfKqFGVvfTWylfF
+        6Pg/7HhVDdAdERJJ23RPKIwBCBAns3YSEJjTUtKCmRu/EQNZe9vNtAPf7ORw0pefs8Xd8PHhdoTH
+        ef4Q99XV7ss6gGFf1zAc9tU4uTm92zsf9hE7vryfzBcvybh5uyXT2UX8/enr5Oz6chFC/Nc/vz65
+        Oj48oU3AqnX1I7JZ1oNjHFYPN6DWrUqCJJAU2bcb+kHUCfxO2L/14/0w3o+SbhCGgyR6qKXAHP4L
+        ibvRII52Bw2I5IgJhI22KVP5YzVj0+Fu0tlLok50NDip488QzRSHVNMI24tmRVp1zoHhF5Pu5GZU
+        w1BeKGaqCPzYvWBdXztYigtipqgVsfWNWVEan5WhCZoyl4hLimmJmNR/mRXNDF5b1Y3fqzcdxfc4
+        Hid5cDrNxN6Xb/RcjejRtJF9WQLiItUCmSmFXD/dFNlZPTq8+ADPKC8z6OIirzEV/ZuxbVZLvf7c
+        Wv4Dh+H7h7AFAAA=
     headers:
       content-encoding: [gzip]
-      content-length: ['590']
+      content-length: ['638']
       content-type: [application/json]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers: {}
     method: GET
-    uri: https://api.balancedpayments.com:443/customers/CU3KXdyvNSDeyLP3pAWr9hqd/cards?limit=10&offset=0
+    uri: https://api.balancedpayments.com:443/customers/CU5tIlvVCbZTDcKmmZ65uN3y/cards?limit=10&offset=0
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6VVW2+bMBR+76+weNhTmwBOyEWqprSbVq1NWq1dO3WakIPtxiqxmW2yoCr/fbaB
-        AL1o08YDEud+vvOdw9MBAF6CJFbeFHw3HwA8ubcRp4w/WnEtsJa50mJNpJF6p1/h+TdcbBbXH0hx
-        cQWz2Z2crH5ir/LfHdaBKOMPRGaScW0dx8mI+oMQwmiI6HicQAKjhPrhaBCRBEUDihMKI4yTkAQU
-        Tow5SSYUUor9IQqjkbcPnGw2sSQqT21cnqfpXsPz9bIsc9t6AvM03mij4kwojdJ4jXSysrVx0ejJ
-        NmMSaSZ4vBZcW33g7zOsiUZdcCR5MLYOGsFpruxHbW6xY7qItfjlLNoKhLFpQsWhVZyILQhfQsiw
-        i3sK52cn6i7anKELqPKLW3xzu7yctBBBmjwIWVhroVcGgn3BusiIFSeSYKa7INb9dzBcIv4Yc7R2
-        Xp+v5pdfPs0W4PRsdv0RnMwW54dg0Zv1ungqLQnRDZ4FUY3BUiLu+rhlCjXiPMOmahwjx47QDwZH
-        /ujID26C4XQAp4NhbzwMQhjct1KVkBn7NjkNwEbS7qFkMbHIviIObD4TGcwR4+Dald4ejKGGds2/
-        Os+KOonAzmbih4Hf9k5EzrUs4srA5n+xGQniMSZLM44p0DInDX9L2DvzaPGxIMjuYOiHDSHNMjxr
-        02Mq3hDJKCMW9k4CS/796nhl76BiIjBjAmV7wFYPsABcaOBY0hq4rb5i0xRQlKqm/pUk1KLSd7el
-        /xfEleQPJBhEcBLA+3I3dgbKHxYtr7OHXoqUY1G/vlQm9xt3qiztfcrWTB8H/jtBqSL6uJ6hx8m2
-        e1a8pqnqDP57cJfVFFofFK/MbiTVQL1Mkg0TuT3ADQs8Lcy5sn4lUzzK5P83bGB0x/rZxS//Cz3M
-        VJZrs8fNOJ/cVHsM7/p7bVVQqWn/J1qjqPxq7a5alyqRdY1XInX/opo5rVQtfSeZW6A3fCqd7fBg
-        9xv4QHhu7QYAAA==
+        H4sIAAAAAAAAA6VVW2vbMBR+368QfthTm/gSOxcoI81Kt4ZmY73AMoZRLKkRtaUgyV5MyX+fJNux
+        3QsbmzEGn4vOOd/5ztHTOwCcBAoknRn4oX8AeLJfLU4pezTiRmAsc6l4hoWWOou7UH1Oi/vFZn37
+        MVlm2ToK81VQOrX/4aQ5iFD2gMVOUKaM4yQZE3fkB0EUQjKZJAEOooS4/ngU4QRGI4ISEkQIJT72
+        SDDV5jiZkoAQ5IbQj8bO8eCkKGKBZZ6ac1mepkcNy7NNlea+83j6ab1hIeMdlwqmcQZVsjW5Md7q
+        8X5HBVSUszjjTBm95x4jZFjBPjgCP2hbCw1nJJfmpzE32FFVxor/shZdBURIFyFj3yjO+R74LyGk
+        yJ67CPPl+ObyfnK1CCG7uP5+ty3K8bKDCFT4gYvSWHO11RAcE1blDhtxIjCiqg9iU38Pww1kjzGD
+        mfW6+nr95dvlfAUWn+Y3F+B8vlqegNVgPujjKZXAWLV4lli2BhsBma3jnkrYivMd0lmjGFp2+K43
+        OvXcUz+8daOZH+p3EEXBNBqtO6EqyLR9l5waYC3p1lCxGBtkXxF7Jp7nB+AaUgZubOrdxmhqKFv8
+        q/2sqZNwZG2mru+5Xe+E50yJMq4NTPwXk5FAFiO80e2YASVy3PK3gr3Xjw4fSwzNDPqu3xJSD8Oz
+        Mh0q4wILSig2sPcCGPIfR8epagc1E4FuE6jKAyZ7gDhgXAHLkk7DTfY1m2aAwFS2+W8FJgaVod0t
+        w78grsB/IIE3Dbxosq5m46Ch/GnQcnpz6KRQWhYNm02lY7+xp6rUPqQ0o+rMc99zQiRWZ00PHYb3
+        /bXitEXVa/DfD7dRdaLNQnGq6FpSN9TZCVxQnpsF3LLAUVyvK+NXMcUhVPx/wRpGu6yfbfzqXhgg
+        Kne50nPctvPJdnVA0WF41NYJVZruPdFpRe3XaA/1uNSBjGu85am9ixrmdEJ19L1gdoDe8Kl1psJ3
+        h99ohlkk7QYAAA==
     headers:
       content-encoding: [gzip]
       content-length: ['751']
@@ -156,23 +161,24 @@ interactions:
       "janet"}'
     headers: {}
     method: POST
-    uri: https://api.balancedpayments.com:443/cards/CC3MHBsW6vHaL3suLVdTVbO9/card_holds
+    uri: https://api.balancedpayments.com:443/cards/CC5uK7SGV8JC5anEMYUhvy7K/card_holds
   response:
     body: {string: !!python/unicode "{\n  \"card_holds\": [\n    {\n      \"status\":
-        \"succeeded\",\n      \"description\": \"janet\",\n      \"links\": {\n        \"card\":
-        \"CC3MHBsW6vHaL3suLVdTVbO9\",\n        \"debit\": null\n      },\n      \"updated_at\":
-        \"2014-08-06T16:17:48.014432Z\",\n      \"created_at\": \"2014-08-06T16:17:47.797164Z\",\n
-        \     \"transaction_number\": \"HL440-067-6287\",\n      \"expires_at\": \"2014-08-13T16:17:47.917087Z\",\n
-        \     \"failure_reason\": null,\n      \"currency\": \"USD\",\n      \"amount\":
-        3499,\n      \"meta\": {\n        \"state\": \"new\",\n        \"participant_id\":
-        \"2\"\n      },\n      \"href\": \"/card_holds/HL1Bdodkf2ZG8tmnnq5IyD3q\",\n
-        \     \"failure_reason_code\": null,\n      \"voided_at\": null,\n      \"id\":
-        \"HL1Bdodkf2ZG8tmnnq5IyD3q\"\n    }\n  ],\n  \"links\": {\n    \"card_holds.events\":
-        \"/card_holds/{card_holds.id}/events\",\n    \"card_holds.card\": \"/cards/{card_holds.card}\",\n
-        \   \"card_holds.debits\": \"/card_holds/{card_holds.id}/debits\",\n    \"card_holds.debit\":
-        \"/debits/{card_holds.debit}\"\n  }\n}"}
+        \"succeeded\",\n      \"description\": \"janet\",\n      \"links\": {\n        \"order\":
+        null,\n        \"card\": \"CC5uK7SGV8JC5anEMYUhvy7K\",\n        \"debit\":
+        null\n      },\n      \"updated_at\": \"2014-10-25T06:26:50.799185Z\",\n      \"created_at\":
+        \"2014-10-25T06:26:50.404893Z\",\n      \"transaction_number\": \"HLWSY-Q4Y-RD5T\",\n
+        \     \"expires_at\": \"2014-11-01T06:26:50.675393Z\",\n      \"failure_reason\":
+        null,\n      \"currency\": \"USD\",\n      \"amount\": 3499,\n      \"meta\":
+        {\n        \"state\": \"new\",\n        \"participant_id\": \"2\"\n      },\n
+        \     \"href\": \"/card_holds/HL72ALQKWOktHSStdc2LX14I\",\n      \"failure_reason_code\":
+        null,\n      \"voided_at\": null,\n      \"id\": \"HL72ALQKWOktHSStdc2LX14I\"\n
+        \   }\n  ],\n  \"links\": {\n    \"card_holds.events\": \"/card_holds/{card_holds.id}/events\",\n
+        \   \"card_holds.order\": \"/orders/{card_holds.order}\",\n    \"card_holds.card\":
+        \"/cards/{card_holds.card}\",\n    \"card_holds.debits\": \"/card_holds/{card_holds.id}/debits\",\n
+        \   \"card_holds.debit\": \"/debits/{card_holds.debit}\"\n  }\n}"}
     headers:
-      content-length: ['944']
+      content-length: ['1021']
       content-type: [application/json]
     status: {code: 201, message: CREATED}
 - request:
@@ -259,48 +265,50 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA61UTY/aMBC9769AkXYPVYEkkLBZCVULHFYq21bdD6pWVWTsoXg3cVJ/IBDiv9d2
-        DEmQVj20l8gz45k3783E+4tOx8tBIu+ms9dnbWVISG15fQJLKsWHjOZUjsPoyly7jCa4YBJRJi6j
-        2Ri2eI3YL0gpuSpWKwFy7HvvqzoMtqYOU1nmPGsOq/9R2XakC4WRK1xBa4/vHCWHDS2UaOPLQqJM
-        uwJ3a0X5P1LVTA+mmJdR9mrQnIaVdD2shCxy4Jb00RD9/Vn4cJTM+QkVpZJQSVWd6yQXPM+BDTBp
-        OjjO7YRCyaHvoo63gyk4ca3ZUw1hzXMAPTvFyJsIx3AbQhSK44oIh8qoYSr74J1ErPrSHH7YDaq0
-        1OIKiaSdpScUxgAEiFNMBwkIzGkpacHMjRfEQNbR9lzsfjeHMn0afPxGdptPDzPYzb8MytsFT9a/
-        6/IG/cRhOh3c303EIt7coflAqPkzeXxefk5OcPr2UdR67S1oPVITsPTc6tiwKgmSQFJk/7zQD4Zd
-        /7rrx49BfBOMboZRL74eJWH4vWaGOfwlJfQTndNIkRwxgbCRKmUqX1bTXyTDuBslo26YxFFdf4Vo
-        pjikGkZYaZuMtIicA8M70+7Tw6xOQ3mhmGER+LH7zzS/drEUF8QsRati6xGyojQeFwMTNGUuEZcU
-        0xIxqd8eK5rZo7aqZ+9NfzELdnS6jV6ZDKbx6D5PRl/Xu81Lo/uyBMRFqgUySwe5/qlSZFdvcjt/
-        B1uUlxn0cJHXORX8m7VtVwf9/Xlx+AMyt13lbgUAAA==
+        H4sIAAAAAAAAA61UbU/bMBD+zq9AkeDDtLZJyAtFQhNteS0wNigdTFNknOvqLXEyv1Qw1P8+23Gb
+        pBL7sn2xfD7f89w9d/br1va2k4NAzsH2q9orK0NcKMvppfBEBP+QkZyIQz/c1dd2wgEuqECE8p1w
+        dAjPeI7od0hIulvMZhzEoeu8r3AoPGscKrPMnswZzP4HsslIAfmhBa6o1YlrD0oGC1JI3uYXhUCZ
+        OvLsrRlh/1iqqnSpwZyM0J+azWpYSdfFkosiB2aKXhm897rhXq4ks+cp4aUUUElV7esg69yMgQVQ
+        oTNY9W3NQtJlz3pt3ZamYKlNzexqCmNuEqjeSZq+ybBytykwYmkyL7LUJKY3jepXvk0mXkiGq+oZ
+        VEYdVdlLZ618VYzC/2rGrmqA6ggXSJgBcLjEGCCF1MqsnClwzEgpSEH1jR+Igqi97WaaR9Hs5HAS
+        ivNscT98erwb4XGeP0ahvN57WQNo9nUNw2Eox/Ht6f3+xTBE9PjqYTJfvMTj5u2WTGeX0ZdfnyZn
+        N1cLH6Lf7sXNyfXx0QlpBqxaVz8uk2U9ONph9LADatyyTJGANEHmffuuF3Q8t+OHd2504EcHQdz1
+        fL8fB4+1FJjBX0OibtCPgr1+I0QwRDnCWtuEyvypmrHpcC/u7MdBJxj0T2r8GSKZZJAoGm560axI
+        qc4YUPyi053cjuowlBeS6io8N7KvWdXXBktwkeopaiG2vjojSuML0zReU+YSMUEwKREV6oczounB
+        a6u68av1pqPoAUfjOPdOpxnf//iZXMgRGUwb2ZclIMYTJZCeUsjV002QmdXB0eU7eEZ5mUEXF3kd
+        U9G/iW2yWqr129byD4ze+LbUBQAA
     headers:
       content-encoding: [gzip]
-      content-length: ['601']
+      content-length: ['648']
       content-type: [application/json]
     status: {code: 200, message: OK}
 - request:
-    body: '{"status": "succeeded", "source_href": "/resources/CC3MHBsW6vHaL3suLVdTVbO9",
-      "transaction_number": "W946-597-2965", "description": "janet", "created_at":
-      "2014-08-06T16:17:45.209792Z", "appears_on_statement_as": "BAL*example.com",
-      "updated_at": "2014-08-06T16:17:45.687922Z", "order": null, "currency": "USD",
-      "amount": 1061, "meta": {"participant_id": "2"}, "customer_href": "/customers/CU3KXdyvNSDeyLP3pAWr9hqd",
-      "failure_reason_code": null, "failure_reason": null, "id": "WD1yiCx5knt1C67Mm97Rhyvj",
-      "dispute": null}'
+    body: '{"status": "succeeded", "card_hold_href": "/holds/HL6XqQUHPMv2e6z0JPFNEAFi",
+      "source_href": "/resources/CC5uK7SGV8JC5anEMYUhvy7K", "transaction_number":
+      "WC37-874-4B9F", "description": "janet", "created_at": "2014-10-25T06:26:46.496439Z",
+      "appears_on_statement_as": "BAL*example.com", "updated_at": "2014-10-25T06:26:47.122974Z",
+      "order": null, "currency": "USD", "amount": 1061, "meta": {"participant_id":
+      "2"}, "customer_href": "/customers/CU5tIlvVCbZTDcKmmZ65uN3y", "failure_reason_code":
+      null, "failure_reason": null, "id": "WD6Yc6K7m1GWls8ORiJuDiBW", "dispute": null}'
     headers: {}
     method: PUT
-    uri: https://api.balancedpayments.com:443/debits/WD1yiCx5knt1C67Mm97Rhyvj
+    uri: https://api.balancedpayments.com:443/debits/WD6Yc6K7m1GWls8ORiJuDiBW
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA31Sy27bMBC85ysMHYvakmzr5VtiHwLUaYvm4aJBIdDkBmYiUSofRgRD/x5SLyoO
-        0gshcndmd0ZzuphMHAJ7KoWzmjzq22Ryak79LiSSyrw7QmEMQIA4X/siAYE5LSUtmOl4RgykrWaU
-        vRhkz6XZsBKyyIGb7vX94ttvUh2/326g2v5clJc7nhz+WXozvVAcQ9O9XtxcX4ldeLxG24VQ2wdy
-        97D/kQzjdHfBSUPNVJb1OxppVJRKGhZT6HavBxGqJEgCSZE0c+aev5x68dQL7/xw5UerwJvFcRD7
-        8R+rDHP4H2QZzOZeEiXzEURyxATCxqqUqXzferBLluE0SKLpPAkDy/+EaKY4pHqMaKwdK9Imcg4M
-        V2bd+9uNhaG8UMyo8L3QH/S9J0txQXorhpYcJNKw0Y8qEZcU0xIxmVLSGON8cO7A4cmU3DY87m7j
-        V3T9Grww6a/D6CZPol+H6vg82rAsAXGRahNMsCAHzY+aeF1dbr/AK8rLDGa4yC2mHf8pd7NVrc+/
-        Ro7zPnRdrGfj3Ln9RbindvGhXHdTe5hNjtbYpsiCuodzjI2sy6G9WEx7P4f0uXXc5su2N9fzbm26
-        YqTxrDe+10FJrYe25fbn9krgqJ3+FNNVtX/1Rf0GIaIZfg8EAAA=
+        H4sIAAAAAAAAA31T227aQBB9z1cgP1YFY+ML8BYgJIUkTZsQGqrKWnYnYlvfshdUivzv3bVZbKjS
+        F8uzM2cuZ87sL1oti8CaCm4NW9+V1Wrty6965wIJqd8tLjEGIECsj8ZJgGNGc0GzVEf8RCmI2hvT
+        9JdGmlwqG5ZcZAkwHT1e+OJTvH0er1dPEzxPklXgy/ve7phAV88kw1BGj305Dx+vn/uzsY/Sq7uX
+        xWa7C+fNaIwYiTZZTDTg5jb49vZlcfNwt3Uh+NOdPUzvry6ntAnIGCl7SWUcm6E0F5TnUuiy2nEY
+        tjhOLXOCBJAICV3H7Tpe2+m2Xf+pGwzdYOh7Hd/1Hc9d1VRgBv+DeEHHGwReb9CACIZSjrDmNkpl
+        sq5IW457Ybsfem1vNJjW+V8RjSWDSJXh5S6aEynWGYMU73S7i8dJDUNJJlM9hdMNnON8p8kinBFD
+        xTEkAYEUrLHZHDFBMc1RKiJaLsC1/mFuw+BVu+xKbfZyErzgYB4mzvUy5v3PX+lMTuho2egwzwEx
+        HikStBIhAZUflXocXd5+gN8oyWPo4CypMVX5d3OXXRXq+0OPY52q9HAHnaZQbWNwe181fnQXh6oG
+        ZgRl2eVfDSjN8+haZ4qRSnM14vBwjqkvwmZQGTWmss8hsFWklZQZ3s0YlBT2wVut1syh9iRT8i7G
+        uE9BJ+dn6ztsEGZOs9CqKC6Kv7awUf91BAAA
     headers:
       content-encoding: [gzip]
-      content-length: ['494']
+      content-length: ['540']
       content-type: [application/json]
     status: {code: 200, message: OK}
 version: 1
