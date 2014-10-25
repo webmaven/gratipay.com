@@ -29,8 +29,15 @@ def store_result(db, thing, username, new_result):
 
     Also update receiving amounts of the participant's tippees.
     """
-    assert thing in ("credit card", "bank account"), thing
+    assert thing in ("credit card", "bank account", "coinbase account"), thing
     x = "bill" if thing == "credit card" else "ach"
+    if thing == "credit card":
+        x = "bill"
+    elif thing == "bank account":
+        x = "ach"
+    else:
+        assert thing == "coinbase account"
+        x = "coinbase"
 
     # Update last_thing_result in the DB
     SQL = """
@@ -48,7 +55,7 @@ def store_result(db, thing, username, new_result):
     p = db.one(SQL, (new_result, username))
 
     # Update the receiving amounts of tippees if necessary
-    if thing != "credit card":
+    if thing == "bank account":
         return
     if p.is_suspicious or new_result == p.old_result:
         return
