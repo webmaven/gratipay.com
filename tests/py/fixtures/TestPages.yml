@@ -5,22 +5,22 @@ interactions:
     method: GET
     uri: https://api.balancedpayments.com:443/marketplaces?limit=25&offset=0
   response:
-    body: {string: !!python/unicode "{\n  \"errors\": [\n    {\n      \"status\":
-        \"Unauthorized\",\n      \"category_code\": \"authentication-required\",\n
-        \     \"description\": \"<p>The server could not verify that you are authorized
-        to access the URL requested.  You either supplied the wrong credentials (e.g.
-        a bad password), or your browser doesn't understand how to supply the credentials
-        required.</p><p>In case you are allowed to request the document, please check
-        your user-id and password and try again.</p> Your request id is OHM32d2d300505011e4892e0230f00c9248.\",\n
-        \     \"status_code\": 401,\n      \"category_type\": \"permission\",\n      \"request_id\":
-        \"OHM32d2d300505011e4892e0230f00c9248\"\n    }\n  ]\n}"}
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5VUTW/bMAy991cEPuyyNfFnhwQotrXZZe3QYE0xbMNgyBaNeJElQ5aadEH++2hZ
+        rmNMKLZLQFKP5CP54sPZZOJVoIi3mBzQRo+RRqHnzSoit6BqRnJo3rGyKtVlmLwSRdGAuvS9Nx2c
+        w76Fc82YjWwkFP9RwFRGfJjY/K4DRnwbqCU8lkI34zZKKMIwFFhUUcp/I468j22OdzogFvphBuq2
+        gK8lT6HJpdi1PfwoCd/G864VPlJREQRo2TLwYE+qmsE0F5VdC0I4qaB9XOmMlflkCY/DGyv5th2n
+        b4ZwseMg01w3SlQg28Trh2D3UHy7XWa327vVDQ2+wO/N1T7zDE87hDmZc+Oz9cf79fnnVbBbP+2X
+        Hz7dXJOvq19X9/EdK2M6cMklEAU0JebqoR/E535yHsZrP1qEF4twPp3PoziKvw8pja5rIVUKuASW
+        EkolNO04nn1471yIrulLjSJ/GgWRnwSORvVGcEi5rrJuNa+Di8RPkiQIo3igVUtBda5KwZFLQVgD
+        z/fqJW4Ob3amOcpYMRy8AGjJW7W1l6ftLC+vz5Q54u9PI6XxQUfKmlLISmXWM7OmVeyp/qaocZAN
+        kjbAwXNhadnUWhnWWLN3XMheTx108JxYCbQniqIwthNHJLX1jOXCCElxGsPPmi5UjvnpRrCTctZ1
+        ofGzormF9rYL9/c/afY8+OwwWvoYenSOoiThDTGy6gYaBVwEMsK3Kclzobm9+zjiyskJYxnJzVfB
+        mw2eC4tK6Qtbs/2knR3/AMhiHPDNBQAA
     headers:
-      content-length: ['654']
+      content-encoding: [gzip]
+      content-length: ['594']
       content-type: [application/json]
-      www-authenticate: ['Basic realm="<p>The server could not verify that you are
-          authorized to access the URL requested.  You either supplied the wrong credentials
-          (e.g. a bad password), or your browser doesn''t understand how to supply
-          the credentials required.</p><p>In case you are allowed to request the document,
-          please check your user-id and password and try again.</p>"']
-    status: {code: 401, message: UNAUTHORIZED}
+    status: {code: 200, message: OK}
 version: 1
