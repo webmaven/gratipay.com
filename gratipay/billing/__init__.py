@@ -147,7 +147,7 @@ def invalidate_on_balanced(thing, balanced_customer_href):
     See: https://github.com/balanced/balanced-api/issues/22
 
     """
-    assert thing in ("credit card", "bank account","coinbase account")
+    assert thing in ("credit card", "bank account", "coinbase account")
     typecheck(balanced_customer_href, (str, unicode))
 
     customer = balanced.Customer.fetch(balanced_customer_href)
