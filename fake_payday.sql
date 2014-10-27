@@ -10,7 +10,7 @@ CREATE TEMPORARY TABLE temp_participants ON COMMIT DROP AS
          , 0::numeric(35,2) AS receiving
          , 0 as npatrons
          , goal
-         , COALESCE(last_bill_result = '', false) AS credit_card_ok
+         , COALESCE(last_bill_result = '' OR last_coinbase_result = '', false) AS has_funding
       FROM participants
      WHERE is_suspicious IS NOT true;
 
@@ -54,7 +54,7 @@ CREATE OR REPLACE FUNCTION fake_tip() RETURNS trigger AS $$
              WHERE participant = NEW.tippee
           LIMIT 1
         );
-        IF (NEW.amount > tipper.fake_balance AND NOT tipper.credit_card_ok) THEN
+        IF (NEW.amount > tipper.fake_balance AND NOT tipper.has_funding) THEN
             RETURN NULL;
         END IF;
         IF (NEW.claimed) THEN
@@ -118,12 +118,12 @@ CREATE TRIGGER fake_take AFTER INSERT ON temp_takes
 
 -- Start fake payday
 
--- Step 1: tips that are backed by a credit card
+-- Step 1: tips that are backed by a credit card or coinbase
 UPDATE temp_tips t
    SET is_funded = true
   FROM temp_participants p
  WHERE p.username = t.tipper
-   AND p.credit_card_ok;
+   AND p.has_funding;
 
 -- Step 2: tips that are covered by the user's balance
 UPDATE temp_tips t
